@@ -30,12 +30,12 @@ class HeaderForm extends Component {
                     <form className="input-form">
                         <input
                             type="text"
-                            placeholder="Enter the name of the dish"
+                            placeholder="Enter the Name of the Dish"
                             id="text"
                         />
                         <input
                             type="submit"
-                            value="Get Ingredients"
+                            value="Get Recipes"
                             onClick={this.getRecipe}
                         />
                     </form>
@@ -44,7 +44,7 @@ class HeaderForm extends Component {
                     <RecipeFind foodItem={this.state.foodItem} />
                 ) : (
                     <h2 className="center">
-                        Type a Dish Name to search for its ingredients
+                        Type a Dish Name to search for it's ingredients
                     </h2>
                 )}
             </div>

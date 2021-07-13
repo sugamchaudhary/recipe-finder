@@ -76,14 +76,14 @@ class RecipeFind extends Component {
                         />
                         <div class="textData">
                             <p>
-                                <em>Category of Meal:</em> {meal[0].strCategory}{" "}
+                                <em>Category of Meal -</em> {meal[0].strCategory}{" "}
                             </p>
                             <p>
-                                <em>Area of the Meal:</em> {meal[0].strArea}{" "}
+                                <em>Area of the Meal -</em> {meal[0].strArea}{" "}
                             </p>
-                            <h3>Ingredients:</h3>
+                            <h3>Ingredients</h3>
                             <ul className="ingredients">{list}</ul>
-                            <h3>Recipes</h3>
+                            <h3 id="recipe">Recipes</h3>
                             <div className="recipe">{meal[0].strInstructions}</div>
                         </div>
                     </div>

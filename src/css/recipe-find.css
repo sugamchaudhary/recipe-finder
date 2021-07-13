@@ -3,14 +3,13 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 20px 5px;
+    font-weight: 500;
   }
   
   .title {
-    background-color: rgb(240, 230, 140, 0.4);
-    color:rgba(0, 0, 0, 0.678);
-    
+    background-color: #fff5ee;
+    color:#856088;
     text-align: center;
-    padding: 10px;
     margin: 5px 0;
   }
   
@@ -22,7 +21,8 @@
   }
   
   .ingredients {
-    height: 200px;
+    height: 250px;
+    font-weight: 500;
     overflow: auto;
     padding: 5px 30px;
     background-color: rgb(167, 167, 167, 0.5);
@@ -32,6 +32,7 @@
   
   .recipe {
     height: 200px;
+    font-weight: 500;
     background-color: rgb(167, 167, 167, 0.5);
     padding: 10px 20px;
     overflow: auto;
@@ -40,4 +41,18 @@
   .noData {
     text-align: center;
   }
-  
+  h3{
+    margin-top: 10px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  #recipe{
+    text-align: center;
+  }
+  h1{
+    font-weight: normal;
+    text-shadow: 1px 1px;
+  }
+  .recipeContainer {
+    background-color:#CBC3E3;
+  }

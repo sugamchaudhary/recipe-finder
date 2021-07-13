@@ -10,7 +10,8 @@
   
   .heading {
     font-size: 3rem;
-    color: #222;
+    color: #808080;
+    font-weight: normal;
   }
   
   .input-form {
@@ -46,4 +47,6 @@
     text-align: center;
     
   }
-  
+  #text {
+    background-color: white;
+  }
